@@ -18,7 +18,7 @@ To make this wireframe we are going to be using HTML for the content and CSS to 
 
 A great lesson learned from this website is the importance of displaying the most important information first. Since this is a newspaper site the biggest image should always be the most important headline of the day. Image sizing and header sizing are very important to show the user what is the most important content and what is the least important.
 
-## Examples:
+
 
 
 
