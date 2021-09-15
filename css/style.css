@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header */
+header {
+  background-color:black;
+  height:40px;
+  width:100%;
+  float:left;
+}
+.headerNav{
+  float:left;
+  width:33.3333%;
+  display:flex;
+  justify-content:space-between;
+}
+
+.headerNav li {
+  display:inline-block;
+  color:white;
+}
+
+/* main */
+
+main{
+  border: 1px solid black;
+  height:800px;
+  width:100%;
+  float:left;
+}
+.imageBanner{
+  border: 1px solid black;
+  height:400px;
+  width:100%;
+  float:left;
+  background-image: url(../Images/Ellen-Pao.jpg);
+  background-size: 100% 400px;
+}
+.imageBanner p{
+  border: 1px rgb(239, 237, 237);
+  width:25%;
+  background-color:rgb(239, 237, 237);
+  margin-top:200px;
+  margin-left:100px;
+  font-size:48px;
+}
+.articles{
+  width:100%;
+  border: 1px solid black;
+  height:200px;
+  width:100%;
+  float:left;
+}
+.articles img{
+  float:left;
+}
+.articles p{
+  font-size:20px;
+  height:50px;
+  margin:0;
+}
+.articles span{
+  float:left;
+  font-size:10px;
+  height:100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
+  .imageBanner p{
+    border: 1px rgb(239, 237, 237);
+    width:25%;
+    background-color:rgb(239, 237, 237);
+    margin-top:200px;
+    margin-left:100px;
+    font-size:24px;
+  }
+  .imageBanner{
+    border: 1px solid black;
+    height:400px;
+    width:100%;
+    float:left;
+    background-image: url(../Images/Ellen-Pao.jpg);
+    background-size: 100% 400px;
+  }
+  
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+  .imageBanner p{
+    border: 1px rgb(239, 237, 237);
+    width:25%;
+    background-color:rgb(239, 237, 237);
+    margin-top:250px;
+    margin-left:80px;
+    font-size:18px;
+  }
+  .imageBanner{
+    border: 1px solid black;
+    height:400px;
+    width:100%;
+    float:left;
+    background-image: url(../Images/Ellen-Pao.jpg);
+    background-size: 100% 400px;
+  }
+  .articles p{
+    font-size:15px;
+    height:50px;
+    margin:0;
+  }
+  .headerNav{
+    display:none;
+  }
+  .headerNav.mobile{
+    float:left;
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+  }
+}
