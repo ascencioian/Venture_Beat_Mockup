@@ -1,7 +1,7 @@
 # Venture Beat Website Mockup
 This project is a wireframe developed as a mockup to the popular newspaper website Venture Beat. Images were sourced to have content similar to what Venture Beat had for its headlines in 2020. The content, color scheme, logos, and top navigation links were marked up to be as close as possible to the original.
 
-**Link to project:** https://bbc-mockup-a55c98bc.netlify.app
+**Link to project:** 
 
 ![alt tag](images/live_screenshot)
 
